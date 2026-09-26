@@ -1,0 +1,282 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Triangle Car Meets//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Triangle Car Meets
+X-WR-CALDESC:Triangle NC car meets
+X-WR-TIMEZONE:America/New_York
+BEGIN:VTIMEZONE
+TZID:America/New_York
+BEGIN:DAYLIGHT
+TZOFFSETFROM:-0500
+TZOFFSETTO:-0400
+TZNAME:EDT
+DTSTART:19700308T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=2SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:-0400
+TZOFFSETTO:-0500
+TZNAME:EST
+DTSTART:19701101T020000
+RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:cam-20260926@triangle-car-meets.local
+DTSTAMP:20260926T180257Z
+DTSTART;TZID=America/New_York:20260926T080000
+DTEND;TZID=America/New_York:20260926T110000
+SUMMARY:Caffeine & Machines — Triangle Town Center
+LOCATION:Triangle Town Center, 3761 Sumner Blvd, Raleigh, NC 27616
+DESCRIPTION:Last Saturday 8-11am. Free. All makes. Outside The Commons near Macy's.\nSource: https://raleighcarshows.com/events/caffeine-and-machines-2026-09-26/
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+BEGIN:VALARM
+TRIGGER:-PT1H
+ACTION:DISPLAY
+DESCRIPTION:Reminder: Caffeine & Machines — Triangle Town Center
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:ccr-20260927@triangle-car-meets.local
+DTSTAMP:20260926T180257Z
+DTSTART;TZID=America/New_York:20260927T080000
+DTEND;TZID=America/New_York:20260927T110000
+SUMMARY:Cars and Coffee Raleigh
+LOCATION:Glenwood Place, 3711 Exchange Glenwood Pl, Raleigh, NC 27612
+DESCRIPTION:4th Sunday 8-11am. Venue can rotate — confirm on social.\nSource: https://carsandcoffeeraleigh.org/
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+BEGIN:VALARM
+TRIGGER:-PT1H
+ACTION:DISPLAY
+DESCRIPTION:Reminder: Cars and Coffee Raleigh
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:ccm-20261003@triangle-car-meets.local
+DTSTAMP:20260926T180257Z
+DTSTART;TZID=America/New_York:20261003T080000
+DTEND;TZID=America/New_York:20261003T110000
+SUMMARY:Cars and Coffee Morrisville — Classic Car Day
+LOCATION:Imperial Center, 5425 Page Road, Durham, NC 27703
+DESCRIPTION:Classic Car Day 1979+ / Breast Cancer Awareness. 8-11am.\nSource: https://carsandcoffeemorrisville.com/events
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+BEGIN:VALARM
+TRIGGER:-PT1H
+ACTION:DISPLAY
+DESCRIPTION:Reminder: Cars and Coffee Morrisville — Classic Car Day
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:pcc-20261010@triangle-car-meets.local
+DTSTAMP:20260926T180257Z
+DTSTART;TZID=America/New_York:20261010T093000
+DTEND;TZID=America/New_York:20261010T113000
+SUMMARY:Porsche Cary Cars & Coffee
+LOCATION:Porsche Cary, 700 Auto Park Blvd, Cary, NC 27511
+DESCRIPTION:2nd Saturday 9:30-11:30am. All marques. Free.\nSource: https://cary.porsche.com/en/cars-and-coffee
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+BEGIN:VALARM
+TRIGGER:-PT1H
+ACTION:DISPLAY
+DESCRIPTION:Reminder: Porsche Cary Cars & Coffee
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:ccr-20261025@triangle-car-meets.local
+DTSTAMP:20260926T180257Z
+DTSTART;TZID=America/New_York:20261025T080000
+DTEND;TZID=America/New_York:20261025T110000
+SUMMARY:Cars and Coffee Raleigh — Right Hand Drive Day
+LOCATION:Pleasant Valley Promenade, 6270 Glenwood Avenue, Raleigh, NC 27612
+DESCRIPTION:RHD Day. 8-11am at Pleasant Valley (not Glenwood Place).\nSource: https://carsandcoffeeraleigh.org/event/cars-and-coffee-raleigh-right-hand-drive-day/
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+BEGIN:VALARM
+TRIGGER:-PT1H
+ACTION:DISPLAY
+DESCRIPTION:Reminder: Cars and Coffee Raleigh — Right Hand Drive Day
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:cam-20261031@triangle-car-meets.local
+DTSTAMP:20260926T180257Z
+DTSTART;TZID=America/New_York:20261031T080000
+DTEND;TZID=America/New_York:20261031T110000
+SUMMARY:Caffeine & Machines — Triangle Town Center
+LOCATION:Triangle Town Center, 3761 Sumner Blvd, Raleigh, NC 27616
+DESCRIPTION:Last Saturday 8-11am. Free. All makes. Outside The Commons near Macy's.\nSource: https://raleighcarshows.com/events/caffeine-and-machines-2026-10-31/
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+BEGIN:VALARM
+TRIGGER:-PT1H
+ACTION:DISPLAY
+DESCRIPTION:Reminder: Caffeine & Machines — Triangle Town Center
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:ccm-20261107@triangle-car-meets.local
+DTSTAMP:20260926T180257Z
+DTSTART;TZID=America/New_York:20261107T080000
+DTEND;TZID=America/New_York:20261107T110000
+SUMMARY:Cars and Coffee Morrisville — People's Choice Day
+LOCATION:Imperial Center, 5425 Page Road, Durham, NC 27703
+DESCRIPTION:People's Choice Day (theme from listings; confirm organizer). 8-11am.\nSource: https://carsandcoffeemorrisville.com/events
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+BEGIN:VALARM
+TRIGGER:-PT1H
+ACTION:DISPLAY
+DESCRIPTION:Reminder: Cars and Coffee Morrisville — People's Choice Day
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:pcc-20261114@triangle-car-meets.local
+DTSTAMP:20260926T180257Z
+DTSTART;TZID=America/New_York:20261114T093000
+DTEND;TZID=America/New_York:20261114T113000
+SUMMARY:Porsche Cary Cars & Coffee
+LOCATION:Porsche Cary, 700 Auto Park Blvd, Cary, NC 27511
+DESCRIPTION:2nd Saturday 9:30-11:30am. All marques. Free.\nSource: https://cary.porsche.com/en/cars-and-coffee
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+BEGIN:VALARM
+TRIGGER:-PT1H
+ACTION:DISPLAY
+DESCRIPTION:Reminder: Porsche Cary Cars & Coffee
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:ccr-20261122@triangle-car-meets.local
+DTSTAMP:20260926T180257Z
+DTSTART;TZID=America/New_York:20261122T080000
+DTEND;TZID=America/New_York:20261122T110000
+SUMMARY:Cars and Coffee Raleigh
+LOCATION:Glenwood Place, 3711 Exchange Glenwood Pl, Raleigh, NC 27612
+DESCRIPTION:4th Sunday 8-11am. Venue can rotate — confirm on social.\nSource: https://carsandcoffeeraleigh.org/
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+BEGIN:VALARM
+TRIGGER:-PT1H
+ACTION:DISPLAY
+DESCRIPTION:Reminder: Cars and Coffee Raleigh
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:cam-20261128@triangle-car-meets.local
+DTSTAMP:20260926T180257Z
+DTSTART;TZID=America/New_York:20261128T080000
+DTEND;TZID=America/New_York:20261128T110000
+SUMMARY:Caffeine & Machines — Triangle Town Center
+LOCATION:Triangle Town Center, 3761 Sumner Blvd, Raleigh, NC 27616
+DESCRIPTION:Last Saturday 8-11am. Free. All makes. Outside The Commons near Macy's.\nSource: https://raleighcarshows.com/venue/triangle-town-center-raleigh-nc/
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+BEGIN:VALARM
+TRIGGER:-PT1H
+ACTION:DISPLAY
+DESCRIPTION:Reminder: Caffeine & Machines — Triangle Town Center
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:ccm-20261205@triangle-car-meets.local
+DTSTAMP:20260926T180257Z
+DTSTART;TZID=America/New_York:20261205T080000
+DTEND;TZID=America/New_York:20261205T110000
+SUMMARY:Cars and Coffee Morrisville — Tuner Car Day
+LOCATION:Imperial Center, 5425 Page Road, Durham, NC 27703
+DESCRIPTION:Tuner Car Day (everything Modified). 8-11am.\nSource: https://carsandcoffeemorrisville.com/events
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+BEGIN:VALARM
+TRIGGER:-PT1H
+ACTION:DISPLAY
+DESCRIPTION:Reminder: Cars and Coffee Morrisville — Tuner Car Day
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:pcc-20261212@triangle-car-meets.local
+DTSTAMP:20260926T180257Z
+DTSTART;TZID=America/New_York:20261212T093000
+DTEND;TZID=America/New_York:20261212T113000
+SUMMARY:Porsche Cary Cars & Coffee
+LOCATION:Porsche Cary, 700 Auto Park Blvd, Cary, NC 27511
+DESCRIPTION:2nd Saturday 9:30-11:30am. All marques. Free.\nSource: https://cary.porsche.com/en/cars-and-coffee
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+BEGIN:VALARM
+TRIGGER:-PT1H
+ACTION:DISPLAY
+DESCRIPTION:Reminder: Porsche Cary Cars & Coffee
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:cam-20261226@triangle-car-meets.local
+DTSTAMP:20260926T180257Z
+DTSTART;TZID=America/New_York:20261226T080000
+DTEND;TZID=America/New_York:20261226T110000
+SUMMARY:Caffeine & Machines — Triangle Town Center
+LOCATION:Triangle Town Center, 3761 Sumner Blvd, Raleigh, NC 27616
+DESCRIPTION:Last Saturday 8-11am. Free. All makes. Outside The Commons near Macy's.\nSource: https://raleighcarshows.com/venue/triangle-town-center-raleigh-nc/
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+BEGIN:VALARM
+TRIGGER:-PT1H
+ACTION:DISPLAY
+DESCRIPTION:Reminder: Caffeine & Machines — Triangle Town Center
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:ccr-20261227@triangle-car-meets.local
+DTSTAMP:20260926T180257Z
+DTSTART;TZID=America/New_York:20261227T080000
+DTEND;TZID=America/New_York:20261227T110000
+SUMMARY:Cars and Coffee Raleigh
+LOCATION:Glenwood Place, 3711 Exchange Glenwood Pl, Raleigh, NC 27612
+DESCRIPTION:4th Sunday 8-11am. Venue can rotate — confirm on social.\nSource: https://carsandcoffeeraleigh.org/
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+BEGIN:VALARM
+TRIGGER:-PT1H
+ACTION:DISPLAY
+DESCRIPTION:Reminder: Cars and Coffee Raleigh
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:pcc-20270109@triangle-car-meets.local
+DTSTAMP:20260926T180257Z
+DTSTART;TZID=America/New_York:20270109T093000
+DTEND;TZID=America/New_York:20270109T113000
+SUMMARY:Porsche Cary Cars & Coffee
+LOCATION:Porsche Cary, 700 Auto Park Blvd, Cary, NC 27511
+DESCRIPTION:2nd Saturday 9:30-11:30am. All marques. Free. Early 2027 from recurring listings.\nSource: https://cary.porsche.com/en/cars-and-coffee
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+BEGIN:VALARM
+TRIGGER:-PT1H
+ACTION:DISPLAY
+DESCRIPTION:Reminder: Porsche Cary Cars & Coffee
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:pcc-20270213@triangle-car-meets.local
+DTSTAMP:20260926T180257Z
+DTSTART;TZID=America/New_York:20270213T093000
+DTEND;TZID=America/New_York:20270213T113000
+SUMMARY:Porsche Cary Cars & Coffee
+LOCATION:Porsche Cary, 700 Auto Park Blvd, Cary, NC 27511
+DESCRIPTION:2nd Saturday 9:30-11:30am. All marques. Free. Early 2027 from recurring listings.\nSource: https://cary.porsche.com/en/cars-and-coffee
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+BEGIN:VALARM
+TRIGGER:-PT1H
+ACTION:DISPLAY
+DESCRIPTION:Reminder: Porsche Cary Cars & Coffee
+END:VALARM
+END:VEVENT
+END:VCALENDAR
