@@ -24,40 +24,8 @@ RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
-UID:cam-20260926@triangle-car-meets.local
-DTSTAMP:20260926T180257Z
-DTSTART;TZID=America/New_York:20260926T080000
-DTEND;TZID=America/New_York:20260926T110000
-SUMMARY:Caffeine & Machines — Triangle Town Center
-LOCATION:Triangle Town Center, 3761 Sumner Blvd, Raleigh, NC 27616
-DESCRIPTION:Last Saturday 8-11am. Free. All makes. Outside The Commons near Macy's.\nSource: https://raleighcarshows.com/events/caffeine-and-machines-2026-09-26/
-STATUS:CONFIRMED
-TRANSP:OPAQUE
-BEGIN:VALARM
-TRIGGER:-PT1H
-ACTION:DISPLAY
-DESCRIPTION:Reminder: Caffeine & Machines — Triangle Town Center
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:ccr-20260927@triangle-car-meets.local
-DTSTAMP:20260926T180257Z
-DTSTART;TZID=America/New_York:20260927T080000
-DTEND;TZID=America/New_York:20260927T110000
-SUMMARY:Cars and Coffee Raleigh
-LOCATION:Glenwood Place, 3711 Exchange Glenwood Pl, Raleigh, NC 27612
-DESCRIPTION:4th Sunday 8-11am. Venue can rotate — confirm on social.\nSource: https://carsandcoffeeraleigh.org/
-STATUS:CONFIRMED
-TRANSP:OPAQUE
-BEGIN:VALARM
-TRIGGER:-PT1H
-ACTION:DISPLAY
-DESCRIPTION:Reminder: Cars and Coffee Raleigh
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
 UID:ccm-20261003@triangle-car-meets.local
-DTSTAMP:20260926T180257Z
+DTSTAMP:20260928T122423Z
 DTSTART;TZID=America/New_York:20261003T080000
 DTEND;TZID=America/New_York:20261003T110000
 SUMMARY:Cars and Coffee Morrisville — Classic Car Day
@@ -73,7 +41,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:pcc-20261010@triangle-car-meets.local
-DTSTAMP:20260926T180257Z
+DTSTAMP:20260928T122423Z
 DTSTART;TZID=America/New_York:20261010T093000
 DTEND;TZID=America/New_York:20261010T113000
 SUMMARY:Porsche Cary Cars & Coffee
@@ -89,12 +57,12 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:ccr-20261025@triangle-car-meets.local
-DTSTAMP:20260926T180257Z
+DTSTAMP:20260928T122423Z
 DTSTART;TZID=America/New_York:20261025T080000
 DTEND;TZID=America/New_York:20261025T110000
 SUMMARY:Cars and Coffee Raleigh — Right Hand Drive Day
 LOCATION:Pleasant Valley Promenade, 6270 Glenwood Avenue, Raleigh, NC 27612
-DESCRIPTION:RHD Day. 8-11am at Pleasant Valley (not Glenwood Place).\nSource: https://carsandcoffeeraleigh.org/event/cars-and-coffee-raleigh-right-hand-drive-day/
+DESCRIPTION:RHD Day. 8-11am at Pleasant Valley Promenade.\nSource: https://carsandcoffeeraleigh.org/event/cars-and-coffee-raleigh-right-hand-drive-day/
 STATUS:CONFIRMED
 TRANSP:OPAQUE
 BEGIN:VALARM
@@ -105,7 +73,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:cam-20261031@triangle-car-meets.local
-DTSTAMP:20260926T180257Z
+DTSTAMP:20260928T122423Z
 DTSTART;TZID=America/New_York:20261031T080000
 DTEND;TZID=America/New_York:20261031T110000
 SUMMARY:Caffeine & Machines — Triangle Town Center
@@ -121,23 +89,23 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:ccm-20261107@triangle-car-meets.local
-DTSTAMP:20260926T180257Z
+DTSTAMP:20260928T122423Z
 DTSTART;TZID=America/New_York:20261107T080000
 DTEND;TZID=America/New_York:20261107T110000
-SUMMARY:Cars and Coffee Morrisville — People's Choice Day
+SUMMARY:Cars and Coffee Morrisville
 LOCATION:Imperial Center, 5425 Page Road, Durham, NC 27703
-DESCRIPTION:People's Choice Day (theme from listings; confirm organizer). 8-11am.\nSource: https://carsandcoffeemorrisville.com/events
+DESCRIPTION:1st Saturday 8-11am. Theme not listed on organizer page — confirm before attending.\nSource: https://carsandcoffeemorrisville.com/events
 STATUS:CONFIRMED
 TRANSP:OPAQUE
 BEGIN:VALARM
 TRIGGER:-PT1H
 ACTION:DISPLAY
-DESCRIPTION:Reminder: Cars and Coffee Morrisville — People's Choice Day
+DESCRIPTION:Reminder: Cars and Coffee Morrisville
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:pcc-20261114@triangle-car-meets.local
-DTSTAMP:20260926T180257Z
+DTSTAMP:20260928T122423Z
 DTSTART;TZID=America/New_York:20261114T093000
 DTEND;TZID=America/New_York:20261114T113000
 SUMMARY:Porsche Cary Cars & Coffee
@@ -153,23 +121,23 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:ccr-20261122@triangle-car-meets.local
-DTSTAMP:20260926T180257Z
-DTSTART;TZID=America/New_York:20261122T080000
-DTEND;TZID=America/New_York:20261122T110000
-SUMMARY:Cars and Coffee Raleigh
-LOCATION:Glenwood Place, 3711 Exchange Glenwood Pl, Raleigh, NC 27612
-DESCRIPTION:4th Sunday 8-11am. Venue can rotate — confirm on social.\nSource: https://carsandcoffeeraleigh.org/
+DTSTAMP:20260928T122423Z
+DTSTART;TZID=America/New_York:20261122T090000
+DTEND;TZID=America/New_York:20261122T120000
+SUMMARY:Cars and Coffee Raleigh — RAD Day
+LOCATION:Pleasant Valley Promenade, 6270 Glenwood Avenue, Raleigh, NC 27612
+DESCRIPTION:RAD Day. 9am-12pm (not usual 8-11). Pleasant Valley Promenade. Save-the-date — confirm on social.\nSource: https://carsandcoffeeraleigh.org/event/cars-and-coffee-raleigh-rad-day/
 STATUS:CONFIRMED
 TRANSP:OPAQUE
 BEGIN:VALARM
 TRIGGER:-PT1H
 ACTION:DISPLAY
-DESCRIPTION:Reminder: Cars and Coffee Raleigh
+DESCRIPTION:Reminder: Cars and Coffee Raleigh — RAD Day
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:cam-20261128@triangle-car-meets.local
-DTSTAMP:20260926T180257Z
+DTSTAMP:20260928T122423Z
 DTSTART;TZID=America/New_York:20261128T080000
 DTEND;TZID=America/New_York:20261128T110000
 SUMMARY:Caffeine & Machines — Triangle Town Center
@@ -184,8 +152,24 @@ DESCRIPTION:Reminder: Caffeine & Machines — Triangle Town Center
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+UID:ccr-holiday-20261128@triangle-car-meets.local
+DTSTAMP:20260928T122423Z
+DTSTART;TZID=America/New_York:20261128T110000
+DTEND;TZID=America/New_York:20261128T140000
+SUMMARY:Cars and Coffee Raleigh — Holiday Classic Car Show & Market
+LOCATION:Boxyard RTP, 900 Park Offices Drive, Durham, NC 27709
+DESCRIPTION:Holiday Classic Car Show & Market with Boxyard RTP. 11am-2pm. Free for attendees. Family & pet friendly.\nSource: https://carsandcoffeeraleigh.org/event/holiday-classic-car-show-market/
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+BEGIN:VALARM
+TRIGGER:-PT1H
+ACTION:DISPLAY
+DESCRIPTION:Reminder: Cars and Coffee Raleigh — Holiday Classic Car Show & Market
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 UID:ccm-20261205@triangle-car-meets.local
-DTSTAMP:20260926T180257Z
+DTSTAMP:20260928T122423Z
 DTSTART;TZID=America/New_York:20261205T080000
 DTEND;TZID=America/New_York:20261205T110000
 SUMMARY:Cars and Coffee Morrisville — Tuner Car Day
@@ -201,7 +185,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:pcc-20261212@triangle-car-meets.local
-DTSTAMP:20260926T180257Z
+DTSTAMP:20260928T122423Z
 DTSTART;TZID=America/New_York:20261212T093000
 DTEND;TZID=America/New_York:20261212T113000
 SUMMARY:Porsche Cary Cars & Coffee
@@ -217,7 +201,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:cam-20261226@triangle-car-meets.local
-DTSTAMP:20260926T180257Z
+DTSTAMP:20260928T122423Z
 DTSTART;TZID=America/New_York:20261226T080000
 DTEND;TZID=America/New_York:20261226T110000
 SUMMARY:Caffeine & Machines — Triangle Town Center
@@ -233,23 +217,23 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:ccr-20261227@triangle-car-meets.local
-DTSTAMP:20260926T180257Z
-DTSTART;TZID=America/New_York:20261227T080000
-DTEND;TZID=America/New_York:20261227T110000
-SUMMARY:Cars and Coffee Raleigh
-LOCATION:Glenwood Place, 3711 Exchange Glenwood Pl, Raleigh, NC 27612
-DESCRIPTION:4th Sunday 8-11am. Venue can rotate — confirm on social.\nSource: https://carsandcoffeeraleigh.org/
+DTSTAMP:20260928T122423Z
+DTSTART;TZID=America/New_York:20261227T090000
+DTEND;TZID=America/New_York:20261227T120000
+SUMMARY:Cars and Coffee Raleigh — Rally Inspired Day
+LOCATION:Pleasant Valley Promenade, 6270 Glenwood Avenue, Raleigh, NC 27612
+DESCRIPTION:Rally Inspired Day. 9am-12pm (not usual 8-11) at Pleasant Valley Promenade. Save-the-date — confirm on social.\nSource: https://carsandcoffeeraleigh.org/event/cars-and-coffee-raleigh-rally-inspired-day/
 STATUS:CONFIRMED
 TRANSP:OPAQUE
 BEGIN:VALARM
 TRIGGER:-PT1H
 ACTION:DISPLAY
-DESCRIPTION:Reminder: Cars and Coffee Raleigh
+DESCRIPTION:Reminder: Cars and Coffee Raleigh — Rally Inspired Day
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:pcc-20270109@triangle-car-meets.local
-DTSTAMP:20260926T180257Z
+DTSTAMP:20260928T122423Z
 DTSTART;TZID=America/New_York:20270109T093000
 DTEND;TZID=America/New_York:20270109T113000
 SUMMARY:Porsche Cary Cars & Coffee
@@ -265,7 +249,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:pcc-20270213@triangle-car-meets.local
-DTSTAMP:20260926T180257Z
+DTSTAMP:20260928T122423Z
 DTSTART;TZID=America/New_York:20270213T093000
 DTEND;TZID=America/New_York:20270213T113000
 SUMMARY:Porsche Cary Cars & Coffee
