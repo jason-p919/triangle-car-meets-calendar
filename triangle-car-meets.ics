@@ -24,38 +24,6 @@ RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
-UID:ccm-20261003@triangle-car-meets.local
-DTSTAMP:20260928T122423Z
-DTSTART;TZID=America/New_York:20261003T080000
-DTEND;TZID=America/New_York:20261003T110000
-SUMMARY:Cars and Coffee Morrisville — Classic Car Day
-LOCATION:Imperial Center, 5425 Page Road, Durham, NC 27703
-DESCRIPTION:Classic Car Day 1979+ / Breast Cancer Awareness. 8-11am.\nSource: https://carsandcoffeemorrisville.com/events
-STATUS:CONFIRMED
-TRANSP:OPAQUE
-BEGIN:VALARM
-TRIGGER:-PT1H
-ACTION:DISPLAY
-DESCRIPTION:Reminder: Cars and Coffee Morrisville — Classic Car Day
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:pcc-20261010@triangle-car-meets.local
-DTSTAMP:20260928T122423Z
-DTSTART;TZID=America/New_York:20261010T093000
-DTEND;TZID=America/New_York:20261010T113000
-SUMMARY:Porsche Cary Cars & Coffee
-LOCATION:Porsche Cary, 700 Auto Park Blvd, Cary, NC 27511
-DESCRIPTION:2nd Saturday 9:30-11:30am. All marques. Free.\nSource: https://cary.porsche.com/en/cars-and-coffee
-STATUS:CONFIRMED
-TRANSP:OPAQUE
-BEGIN:VALARM
-TRIGGER:-PT1H
-ACTION:DISPLAY
-DESCRIPTION:Reminder: Porsche Cary Cars & Coffee
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
 UID:ccr-20261025@triangle-car-meets.local
 DTSTAMP:20260928T122423Z
 DTSTART;TZID=America/New_York:20261025T080000
@@ -89,18 +57,18 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:ccm-20261107@triangle-car-meets.local
-DTSTAMP:20260928T122423Z
+DTSTAMP:20261012T123000Z
 DTSTART;TZID=America/New_York:20261107T080000
 DTEND;TZID=America/New_York:20261107T110000
-SUMMARY:Cars and Coffee Morrisville
+SUMMARY:Cars and Coffee Morrisville — People's Choice Day: Right Hand Drive
 LOCATION:Imperial Center, 5425 Page Road, Durham, NC 27703
-DESCRIPTION:1st Saturday 8-11am. Theme not listed on organizer page — confirm before attending.\nSource: https://carsandcoffeemorrisville.com/events
+DESCRIPTION:People's Choice Day: Right Hand Drive Vehicles. 8-11am.\nSource: https://carsandcoffeemorrisville.com/events
 STATUS:CONFIRMED
 TRANSP:OPAQUE
 BEGIN:VALARM
 TRIGGER:-PT1H
 ACTION:DISPLAY
-DESCRIPTION:Reminder: Cars and Coffee Morrisville
+DESCRIPTION:Reminder: Cars and Coffee Morrisville — People's Choice Day: Right Hand Drive
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
@@ -197,6 +165,22 @@ BEGIN:VALARM
 TRIGGER:-PT1H
 ACTION:DISPLAY
 DESCRIPTION:Reminder: Porsche Cary Cars & Coffee
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:ccr-glenwood-20261212@triangle-car-meets.local
+DTSTAMP:20261012T123000Z
+DTSTART;TZID=America/New_York:20261212T110000
+DTEND;TZID=America/New_York:20261212T140000
+SUMMARY:Cars & Coffee at Glenwood Place (Cars and Coffee Raleigh)
+LOCATION:Glenwood Place, 3711 Exchange Place, Raleigh, NC 27612
+DESCRIPTION:Quarterly boutique car show (exotic, classic, specialty) hosted by Cars and Coffee Raleigh. 11am-2pm. In the retail lot in front of Ladyfingers Market; attendee parking in the 3700/3800 Glenwood garages. Listed by Glenwood Place; not yet on the CCR events page — confirm before attending.\nSource: https://glenwoodplaceraleigh.com/events/cars-coffee-at-glenwood-place-2-2-2/
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+BEGIN:VALARM
+TRIGGER:-PT1H
+ACTION:DISPLAY
+DESCRIPTION:Reminder: Cars & Coffee at Glenwood Place (Cars and Coffee Raleigh)
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
