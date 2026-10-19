@@ -57,18 +57,19 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:ccm-20261107@triangle-car-meets.local
-DTSTAMP:20261012T123000Z
+DTSTAMP:20261019T123000Z
+SEQUENCE:1
 DTSTART;TZID=America/New_York:20261107T080000
 DTEND;TZID=America/New_York:20261107T110000
-SUMMARY:Cars and Coffee Morrisville — People's Choice Day: Right Hand Drive
+SUMMARY:Cars and Coffee Morrisville — People's Choice Day: Right Hand Drive / First Responders & Veterans
 LOCATION:Imperial Center, 5425 Page Road, Durham, NC 27703
-DESCRIPTION:People's Choice Day: Right Hand Drive Vehicles. 8-11am.\nSource: https://carsandcoffeemorrisville.com/events
+DESCRIPTION:People's Choice Day: Right Hand Drive Vehicles / Honoring First Responders & Veterans - wear red! 8-11am.\nSource: https://carsandcoffeemorrisville.com/events
 STATUS:CONFIRMED
 TRANSP:OPAQUE
 BEGIN:VALARM
 TRIGGER:-PT1H
 ACTION:DISPLAY
-DESCRIPTION:Reminder: Cars and Coffee Morrisville — People's Choice Day: Right Hand Drive
+DESCRIPTION:Reminder: Cars and Coffee Morrisville — People's Choice Day: Right Hand Drive / First Responders & Veterans
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
