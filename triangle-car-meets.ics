@@ -24,22 +24,6 @@ RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
-UID:ccr-20261025@triangle-car-meets.local
-DTSTAMP:20260928T122423Z
-DTSTART;TZID=America/New_York:20261025T080000
-DTEND;TZID=America/New_York:20261025T110000
-SUMMARY:Cars and Coffee Raleigh — Right Hand Drive Day
-LOCATION:Pleasant Valley Promenade, 6270 Glenwood Avenue, Raleigh, NC 27612
-DESCRIPTION:RHD Day. 8-11am at Pleasant Valley Promenade.\nSource: https://carsandcoffeeraleigh.org/event/cars-and-coffee-raleigh-right-hand-drive-day/
-STATUS:CONFIRMED
-TRANSP:OPAQUE
-BEGIN:VALARM
-TRIGGER:-PT1H
-ACTION:DISPLAY
-DESCRIPTION:Reminder: Cars and Coffee Raleigh — Right Hand Drive Day
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
 UID:cam-20261031@triangle-car-meets.local
 DTSTAMP:20260928T122423Z
 DTSTART;TZID=America/New_York:20261031T080000
@@ -122,11 +106,12 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:ccr-holiday-20261128@triangle-car-meets.local
-DTSTAMP:20260928T122423Z
+DTSTAMP:20261026T121652Z
+SEQUENCE:1
 DTSTART;TZID=America/New_York:20261128T110000
 DTEND;TZID=America/New_York:20261128T140000
 SUMMARY:Cars and Coffee Raleigh — Holiday Classic Car Show & Market
-LOCATION:Boxyard RTP, 900 Park Offices Drive, Durham, NC 27709
+LOCATION:Boxyard RTP, 900 Park Offices Drive, Durham, NC 27713
 DESCRIPTION:Holiday Classic Car Show & Market with Boxyard RTP. 11am-2pm. Free for attendees. Family & pet friendly.\nSource: https://carsandcoffeeraleigh.org/event/holiday-classic-car-show-market/
 STATUS:CONFIRMED
 TRANSP:OPAQUE
