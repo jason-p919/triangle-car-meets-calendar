@@ -24,22 +24,6 @@ RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
-UID:cam-20261031@triangle-car-meets.local
-DTSTAMP:20260928T122423Z
-DTSTART;TZID=America/New_York:20261031T080000
-DTEND;TZID=America/New_York:20261031T110000
-SUMMARY:Caffeine & Machines — Triangle Town Center
-LOCATION:Triangle Town Center, 3761 Sumner Blvd, Raleigh, NC 27616
-DESCRIPTION:Last Saturday 8-11am. Free. All makes. Outside The Commons near Macy's.\nSource: https://raleighcarshows.com/events/caffeine-and-machines-2026-10-31/
-STATUS:CONFIRMED
-TRANSP:OPAQUE
-BEGIN:VALARM
-TRIGGER:-PT1H
-ACTION:DISPLAY
-DESCRIPTION:Reminder: Caffeine & Machines — Triangle Town Center
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
 UID:ccm-20261107@triangle-car-meets.local
 DTSTAMP:20261019T123000Z
 SEQUENCE:1
