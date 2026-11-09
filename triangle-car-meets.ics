@@ -24,23 +24,6 @@ RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
-UID:ccm-20261107@triangle-car-meets.local
-DTSTAMP:20261019T123000Z
-SEQUENCE:1
-DTSTART;TZID=America/New_York:20261107T080000
-DTEND;TZID=America/New_York:20261107T110000
-SUMMARY:Cars and Coffee Morrisville — People's Choice Day: Right Hand Drive / First Responders & Veterans
-LOCATION:Imperial Center, 5425 Page Road, Durham, NC 27703
-DESCRIPTION:People's Choice Day: Right Hand Drive Vehicles / Honoring First Responders & Veterans - wear red! 8-11am.\nSource: https://carsandcoffeemorrisville.com/events
-STATUS:CONFIRMED
-TRANSP:OPAQUE
-BEGIN:VALARM
-TRIGGER:-PT1H
-ACTION:DISPLAY
-DESCRIPTION:Reminder: Cars and Coffee Morrisville — People's Choice Day: Right Hand Drive / First Responders & Veterans
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
 UID:pcc-20261114@triangle-car-meets.local
 DTSTAMP:20260928T122423Z
 DTSTART;TZID=America/New_York:20261114T093000
@@ -206,6 +189,22 @@ UID:pcc-20270213@triangle-car-meets.local
 DTSTAMP:20260928T122423Z
 DTSTART;TZID=America/New_York:20270213T093000
 DTEND;TZID=America/New_York:20270213T113000
+SUMMARY:Porsche Cary Cars & Coffee
+LOCATION:Porsche Cary, 700 Auto Park Blvd, Cary, NC 27511
+DESCRIPTION:2nd Saturday 9:30-11:30am. All marques. Free. Early 2027 from recurring listings.\nSource: https://cary.porsche.com/en/cars-and-coffee
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+BEGIN:VALARM
+TRIGGER:-PT1H
+ACTION:DISPLAY
+DESCRIPTION:Reminder: Porsche Cary Cars & Coffee
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:pcc-20270313@triangle-car-meets.local
+DTSTAMP:20261109T131929Z
+DTSTART;TZID=America/New_York:20270313T093000
+DTEND;TZID=America/New_York:20270313T113000
 SUMMARY:Porsche Cary Cars & Coffee
 LOCATION:Porsche Cary, 700 Auto Park Blvd, Cary, NC 27511
 DESCRIPTION:2nd Saturday 9:30-11:30am. All marques. Free. Early 2027 from recurring listings.\nSource: https://cary.porsche.com/en/cars-and-coffee
