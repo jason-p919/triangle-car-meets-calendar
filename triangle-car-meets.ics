@@ -24,22 +24,6 @@ RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
-UID:ccr-20261122@triangle-car-meets.local
-DTSTAMP:20260928T122423Z
-DTSTART;TZID=America/New_York:20261122T090000
-DTEND;TZID=America/New_York:20261122T120000
-SUMMARY:Cars and Coffee Raleigh — RAD Day
-LOCATION:Pleasant Valley Promenade, 6270 Glenwood Avenue, Raleigh, NC 27612
-DESCRIPTION:RAD Day. 9am-12pm (not usual 8-11). Pleasant Valley Promenade. Save-the-date — confirm on social.\nSource: https://carsandcoffeeraleigh.org/event/cars-and-coffee-raleigh-rad-day/
-STATUS:CONFIRMED
-TRANSP:OPAQUE
-BEGIN:VALARM
-TRIGGER:-PT1H
-ACTION:DISPLAY
-DESCRIPTION:Reminder: Cars and Coffee Raleigh — RAD Day
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
 UID:cam-20261128@triangle-car-meets.local
 DTSTAMP:20260928T122423Z
 DTSTART;TZID=America/New_York:20261128T080000
